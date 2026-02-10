@@ -1,0 +1,85 @@
+[gd_resource type="EditorSettings" load_steps=8 format=3]
+
+[sub_resource type="InputEventKey" id="InputEventKey_wpalv"]
+keycode = 4194326
+
+[sub_resource type="InputEventKey" id="InputEventKey_2lmss"]
+device = -1
+physical_keycode = 4194343
+
+[sub_resource type="InputEventKey" id="InputEventKey_gfws8"]
+device = -1
+physical_keycode = 4194342
+
+[sub_resource type="InputEventKey" id="InputEventKey_3nn3j"]
+device = -1
+keycode = 4194341
+
+[sub_resource type="InputEventKey" id="InputEventKey_dc1ag"]
+shift_pressed = true
+ctrl_pressed = true
+keycode = 4194336
+
+[sub_resource type="InputEventKey" id="InputEventKey_5hb1r"]
+device = -1
+alt_pressed = true
+physical_keycode = 4194337
+
+[sub_resource type="InputEventKey" id="InputEventKey_rsndk"]
+device = -1
+alt_pressed = true
+physical_keycode = 4194336
+
+[resource]
+interface/editor/main_font = "C:/Projects/v4-6-add-free/Project/Themes/Fonts/UbuntuMono-Regular.ttf"
+interface/editor/main_font_bold = "C:/Projects/v4-6-add-free/Project/Themes/Fonts/UbuntuMono-Bold.ttf"
+interface/editor/code_font = "C:/Projects/v4-6-add-free/Project/Themes/Fonts/UbuntuMono-Regular.ttf"
+interface/theme/preset = "Custom"
+interface/theme/accent_color = Color(0.522348, 0.694207, 0.999999, 1)
+interface/theme/contrast = 0.3
+filesystem/import/blender/blender_path = "C:\\Program Files\\Blender Foundation\\Blender 4.4/blender.exe"
+editors/3d_gizmos/gizmo_settings/bone_axis_length = 0.1
+run/output/font_size = 16
+network/connection/network_mode = 1
+export/android/java_sdk_path = ""
+export/android/android_sdk_path = ""
+export/android/debug_keystore = "C:/Users/dmytr/AppData/Roaming/Godot/keystores/debug.keystore"
+export/android/debug_keystore_pass = "android"
+export/macos/rcodesign = ""
+export/web/http_port = 8060
+export/web/tls_key = ""
+export/web/tls_certificate = ""
+export/windows/rcedit = ""
+export/windows/signtool = ""
+_default_feature_profile = ""
+_use_favorites_root_selection = false
+network/debug_adapter/request_timeout = 1000
+editors/grid_map/editor_side = 1
+_editor_settings_advanced_mode = false
+_project_settings_advanced_mode = true
+_export_template_download_directory = "C:/Users/dmytr/AppData/Local/Godot"
+_script_setup_templates_dictionary = {}
+_script_setup_use_script_templates = false
+shortcuts = [{
+"name": "spatial_editor/viewport_zoom_modifier_1",
+"shortcuts": [SubResource("InputEventKey_wpalv")]
+}, {
+"name": "spatial_editor/viewport_zoom_modifier_2",
+"shortcuts": []
+}, {
+"name": "bottom_panels/toggle_output_bottom_panel",
+"shortcuts": [SubResource("InputEventKey_2lmss")]
+}, {
+"name": "editor/distraction_free_mode",
+"shortcuts": [SubResource("InputEventKey_gfws8")]
+}, {
+"name": "script_editor/toggle_scripts_panel",
+"shortcuts": [SubResource("InputEventKey_3nn3j")]
+}, {
+"name": "bottom_panels/toggle_debugger_bottom_panel",
+"shortcuts": []
+}, {
+"name": "editor/run_specific_scene",
+"shortcuts": [SubResource("InputEventKey_dc1ag"), SubResource("InputEventKey_5hb1r"), SubResource("InputEventKey_rsndk")]
+}]
+metadata/export_template_download_directory = "C:/Users/dmytr/AppData/Local/Godot"
