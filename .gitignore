@@ -6,6 +6,11 @@ Backup
 Backup/
 Backup/*
 
+# git rm -rf app_userdata/ADD/shader_cache --cached
+app_userdata/ADD/shader_cache
+app_userdata/ADD/shader_cache/
+app_userdata/ADD/shader_cache/*
+
 export_templates
 export_templates/
 export_templates/*
