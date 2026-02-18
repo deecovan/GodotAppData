@@ -10,6 +10,7 @@ Backup/*
 app_userdata/ADD/shader_cache
 app_userdata/ADD/shader_cache/
 app_userdata/ADD/shader_cache/*
+*.cache
 
 export_templates
 export_templates/
